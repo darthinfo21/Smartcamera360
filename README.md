@@ -1,12 +1,12 @@
 # ESP32 Pan-Tilt Camera Control with Face Detection
 
-This project utilizes ESP32 microcontroller along with pan-tilt servo motors for achieving 360-degree movement of a camera module. The project also integrates Wi-Fi connectivity for streaming and implements a Python-based face detection algorithm using OpenCV with Haar cascade classifiers for accurate facial recognition.
+This project utilizes an ESP32 Camera microcontroller along with pan-tilt servo motors for achieving 360-degree movement of a camera module. The project also integrates Wi-Fi connectivity for streaming and implements a Python-based face detection algorithm using OpenCV with Haar cascade classifiers for accurate facial recognition.
 
 ## Features
 
 - Incorporates pan-tilt servo motors for achieving 360-degree movement.
-- Enables precise camera control using ESP32 microcontroller.
-- Establishes Wi-Fi connectivity for streaming video feed.
+- Enables precise camera control using ESP32 Camera microcontroller.
+- Establish Wi-Fi connectivity for streaming video feeds.
 - Implements Python-based face detection algorithm using OpenCV.
 - Utilizes Haar cascade classifiers for accurate facial recognition.
 
@@ -43,7 +43,7 @@ python face_detection.py
 
 ## Usage
 
-1. Ensure that the ESP32 board is powered and connected to a Wi-Fi network.
+1. Ensure the ESP32 camera board is powered and connected to a Wi-Fi network.
 
 2. Run the Python script `face_detection.py` on your computer.
 
@@ -51,13 +51,9 @@ python face_detection.py
 
 4. The camera module will start streaming video, and face detection will be performed in real-time.
 
-## Configuration
-
-- Modify the `config.h` file in the ESP32 code directory to adjust settings such as Wi-Fi credentials, servo motor pins, and camera module configuration.
-
 ## Contributions
 
-Contributions are welcome! If you want to contribute to this project, feel free to submit a pull request.
+Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
 
 
 ## Acknowledgments
